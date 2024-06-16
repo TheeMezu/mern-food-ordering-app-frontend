@@ -21,7 +21,7 @@ export const useGetMyUser = () => {
         throw new Error("Failed to fetch user");
         }
 
-        return response.json();
+        return response.json(); 
     };
 
     const {
