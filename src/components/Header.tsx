@@ -9,7 +9,7 @@ export default function Header() {
             <Link 
             to= "/" 
             className="text-3xl font-bold tracking-light text-orange-500">
-                LetsEats.com
+                MezuEats
             </Link>
             <div className="md:hidden">
                 <MobileNav />

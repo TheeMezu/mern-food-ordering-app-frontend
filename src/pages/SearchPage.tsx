@@ -133,3 +133,6 @@ export default function SearchPage() {
 // and we designed that the api request would run with every searchState changes
 // which it will with every change in our searches which is why handling
 // each search query on its own will work
+
+
+// to check for any ts errors we cna run npx tsc in the terminal
