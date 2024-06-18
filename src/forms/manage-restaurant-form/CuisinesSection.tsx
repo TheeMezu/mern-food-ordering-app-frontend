@@ -41,4 +41,4 @@ export default CuisinesSection;
 
 
 // here we passed field= {field} so that custom component can have access to 
-// onBlur onChange and all these properties given by the useForm hook 
+// onBlur onChange value and all these properties given by the useForm hook 
