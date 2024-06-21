@@ -10,7 +10,7 @@ export type User = {
 export type MenuItem = {
     _id: string;
     name: string;
-    price: string;
+    price: number;
 }
 
 export type Restaurant = {
@@ -26,6 +26,27 @@ export type Restaurant = {
     imageUrl: string;
     lastUpdated: string;
 }
+
+// export type Order = {
+//     _id: string;
+//     restaurant: Restaurant;
+//     user: User;
+//     cartItems: {
+//         menuItemId: string;
+//         name: string;
+//         quantity: string;
+//     }[];
+//     deliveryDetails: {
+//         name: string;
+//         addressLine1: string;
+//         city: string;
+//         email: string;
+//     };
+//     totalAmount: number;
+//     status: OrderStatus;
+//     createdAt: string;
+//     restaurantId: string;
+//   };
 
 export type RestaurantSearchResponse = {
     data: Restaurant[];

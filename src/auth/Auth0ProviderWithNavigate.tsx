@@ -17,6 +17,8 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
     throw new Error("unable to initialise auth");
   }
 
+  // this will see if there is an apstate defined like in checkoutButton we 
+  // use the pathname if not we simpy go to authcallback
   const onRedirectCallback = (appState?: AppState, user?: User) => {
     navigate(appState?.returnTo || "/auth-callback");
     console.log("USER", user);

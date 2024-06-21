@@ -60,7 +60,7 @@ export const useCreateMyRestaurant = () => {
     return response.json();
     // we do it so when the response is finished and the restaurant is
     // created, it allows the caller to have access to the data incase
-    // they need it
+    // they need it as json data that we can easily use 
   };
 
   const {
