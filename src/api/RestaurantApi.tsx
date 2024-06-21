@@ -21,7 +21,7 @@ export const useGetRestaurant = (restaurantId?: string) => {
     getRestaurantByIdRequest, {
         enabled: !!restaurantId
     }
-    // means that we will only use this query when we have restaurantId
+    // means that we will only use this query if we have restaurantId
   );
   return {restaurant, isLoading}
 };

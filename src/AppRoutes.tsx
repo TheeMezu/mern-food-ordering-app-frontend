@@ -7,6 +7,7 @@ import ProtectedRoute from "./auth/ProtectedRoute";
 import ManageRestaurantPage from "./pages/ManageRestaurantPage";
 import SearchPage from "./pages/SearchPage";
 import DetailPage from "./pages/DetailPage";
+import OrderStatusPage from "./pages/OrderStatusPage";
 
 export default function AppRoutes() {
   return (
@@ -46,6 +47,15 @@ export default function AppRoutes() {
             <Layout>
               {" "}
               <UserProfilePage />{" "}
+            </Layout>
+          }
+        />
+        <Route
+          path="/order-status"
+          element={
+            <Layout>
+              {" "}
+              <OrderStatusPage />{" "}
             </Layout>
           }
         />
